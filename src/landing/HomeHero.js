@@ -56,11 +56,10 @@ function HomeHero() {
   return (
     <div className={s.root}>
       <Typography className={s.title} variant="h3">
-        Flying start for makers
+        A live class feed for students and professors
       </Typography>
       <Typography className={s.subTitle} variant="h5">
-        Quickly bootstrap new web application projects on a solid
-        JavaScript-based tech stack and serverless architecture
+        Collaborate and engage in class physically and virtually.
       </Typography>
       <div className={s.actions}>
         <LoginButton className={s.button} provider="google" />
